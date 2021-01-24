@@ -20,4 +20,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         yarn
-        yarn run ng -- deploy --cname=blog.aksads.tech --no-silent
+        yarn run ng -- deploy --cname=blog.aksads.tech --name="AkshatAdsule" --email="akshat.adsule@gmail.com" --no-silent
