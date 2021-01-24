@@ -65,14 +65,6 @@ export class AdminComponent implements OnInit {
         .getDownloadURL()
         .toPromise()
         .then((url) => {
-          // this.firestore
-          //   .collection('posts')
-          //   .add({
-          // title: this.createPostForm.value.title,
-          // description: this.createPostForm.value.description,
-          // file_url: url,
-          // timestamp: new Date(),
-          //   })
           this.firestore
             .collection('posts')
             .doc(_.kebabCase(this.createPostForm.value.title))
