@@ -23,7 +23,7 @@
     "@types/lodash": "^4.14.168",
     "bootstrap": "^5.0.0-beta1",
     "firebase": "^7.0 || ^8.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "ngx-markdown": "^11.0.1",
     "ngx-order-pipe": "^2.1.1",
     "rxjs": "~6.5.5",
